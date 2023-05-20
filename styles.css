@@ -3,6 +3,7 @@
     background-color: rgba(0,0,0,.90);
     font-family: 'montserrat',serif;
     box-shadow: 1px 1px 3px rgba(255,255,255,.54);
+    z-index: 99
 }
 .cc-navbar-brand{
     font-family: 'MontCarlo',serif; 
