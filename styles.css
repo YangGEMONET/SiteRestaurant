@@ -1,0 +1,30 @@
+
+.cc-navbar{
+    background-color: rgba(0,0,0,.90);
+    font-family: 'montserrat',serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,.54);
+}
+.cc-navbar-brand{
+    font-family: 'MontCarlo',serif; 
+}
+
+.cc-navbar .nav-link {
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+	padding-bottom: 20px;
+	border-bottom-color: var(--bs-teal);
+}
+
+.btn-connexion{
+    color : var(--bs-teal);
+    border-color:var(--bs-teal);
+    transition : 0.5s
+}
+.btn-connexion:hover,
+.btn-connexion:active{
+    color : #ffff;
+    background-color:var(--bs-teal);  
+}
