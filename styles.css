@@ -1,12 +1,18 @@
+@font-face {
+    font-family: 'MonteCarlo';
+    src: url('MonteCarlo-Regular.ttf') format('truetype');
+  }
 
 .cc-navbar{
     background-color: rgba(0,0,0,.90);
-    font-family: 'montserrat',serif;
+    font-family: 'montserrat',sans-serif;
+    font-size: 20px;
     box-shadow: 1px 1px 3px rgba(255,255,255,.54);
     z-index: 99
 }
 .cc-navbar-brand{
-    font-family: 'MontCarlo',serif; 
+    font-family: 'MonteCarlo',sans-serif; 
+    font-size: 50px;
 }
 
 .cc-navbar .nav-link {
@@ -29,3 +35,32 @@
     color : #ffff;
     background-color:var(--bs-teal);  
 }
+.cc-footer{
+    background-color: rgba(167, 163, 163, 0.9);
+    font-family: 'montserrat',serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,.54);
+    z-index: 99
+}
+
+.cc-footer-brand{
+    font-family: 'MonteCarlo', sans-serif; 
+    font-size: 60px;
+}
+
+
+.social-icons{
+    position: relative;
+    margin-bottom: 0;
+    margin-right:  0;
+}
+  
+.social-icons a {
+    margin-left: 10px; /* Espacement entre les icônes */
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: 80px;
+    margin: -80px 0 0;
+  }
