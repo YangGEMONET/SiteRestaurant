@@ -49,15 +49,15 @@
 
 
 .social-icons{
-    position: relative;
-    margin-bottom: 0;
-    margin-right:  0;
+    display: flex;
+   justify-content: flex-end;
+   margin-bottom: 3px;
 }
-  
+
 .social-icons a {
     margin-left: 10px; /* Espacement entre les icônes */
 }
-
+  
 :target::before {
     content: "";
     display: block;
