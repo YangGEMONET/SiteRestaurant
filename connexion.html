@@ -9,25 +9,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form>
+    <form method="POST" name="inscription">
         <h1>Se connecter</h1>
         <div  class="inputs">
             <label id="divlogin" for="login">Login</label>
-            <input type="email" id="login">
+            <input type="email" name="email" id="login">
         </div>
         <div id="divmdp" class="inputs">
             <label id="divlogin" for="mdp">Mot de passe</label>
-            <input type="passeword" id="mdp">
+            <input type="passeword" name="email" id="mdp">
         </div>
         <p class="inscription" align="center">
             Je n'ai pas de compte. Je m'en crée un
         </p>
         <div align="center">
-            <button id="bouton" type="submit">
+            <button id="bouton" type="submit" value="bouton">
                 se connecter
              </button>    
         </div>
     </form>
+    <p style="color: red;" id="erreur"></p>
     <script src="script.js"></script>
 </body>
 </html>
+<!--
+<form method="POST" name="inscription">
+	<input type="text" name="pseudo" placeholder="Pseudo"><br>
+	<input type="email" name="email" placeholder="Email" id="email"><br>
+	<input type="email" name="email-confirmation" placeholder="Confirmation de l'email" id="email2"><br>
+	<input type="password" name="mdp" placeholder="Mot de passe"><br>
+	<input type="submit" value="Inscription">
+</form>
+-->
