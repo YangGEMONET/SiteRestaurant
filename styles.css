@@ -64,3 +64,50 @@
     height: 80px;
     margin: -80px 0 0;
   }
+
+  /* connexion */
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e3e3;
+}
+form{
+    margin-top: 20px;
+    background-color: #ffff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    
+}
+ form h1{
+    text-align: center;
+    
+}
+.inputs {
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+#login, #mdp {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    border: none;
+
+}
+#bouton {
+ padding: 15px 25px;
+ background-color: #f2f2f2;
+ font-size: 20px;
+ font-family: 'roboto ,sans-serif';
+ border-radius: 5px;
+ border: none;
+
+}
+
+#divlogin, #divmdp {
+    margin-bottom: 10px;
+}
