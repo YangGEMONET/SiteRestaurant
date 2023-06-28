@@ -49,7 +49,7 @@
 
 
 .social-icons{
-    display: flex;
+   display: flex;
    justify-content: flex-end;
    margin-bottom: 3px;
 }
@@ -98,7 +98,13 @@ form{
     border: none;
 
 }
-#bouton {
+/*
+form p.connexion span{
+    color: blue;
+
+  }
+*/
+#connecter {
  padding: 15px 25px;
  background-color: #f2f2f2;
  font-size: 20px;
@@ -111,3 +117,5 @@ form{
 #divlogin, #divmdp {
     margin-bottom: 10px;
 }
+
+/*créer un compte */

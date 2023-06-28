@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se connecter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="POST" name="inscription">
+        <h1>Créer un compte</h1>
+        <div  class="inputs">
+            <label id="ins_prenom" for="prenom">Prénom</label>
+            <input type="text" name="text" id="prenom">
+        </div>
+        <div  class="inputs">
+            <label id="ins_nom" for="nom">Nom</label>
+            <input type="text" name="text" id="nom">
+        </div>
+        <div  class="inputs">
+            <label id="ins_datenaissance" for="datenaissance">Date de naissance</label>
+            <input type="date" name="date" id="datenaissance">
+        </div>
+        <div  class="inputs">
+            <label id="ins_cp" for="cp">Code postal</label>
+            <input type="text" name="cp" id="cp">
+        </div>
+        <div  class="inputs">
+            <label id="ins_ville" for="ville">Ville</label>
+            <input type="text" name="ville" id="ville">
+        </div>
+        <div  class="inputs">
+            <label id="ins_login" for="login">Login</label>
+            <input type="email" name="email" id="login">
+        </div>
+        <div id="divmdp" class="inputs">
+            <label id="ins_login" for="mdp">Mot de passe</label>
+            <input type="passeword" name="email" id="mdp">
+        </div>
+        
+        
+        <div align="center">
+            <button id="creecompte" type="submit" value="bouton">
+                Créer un compte
+             </button>    
+        </div>
+    </form>
+    <p style="color: red;" id="erreur"></p>
+    <script src="script.js"></script>
+</body>
+</html>
